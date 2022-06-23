@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const startBtn = document.querySelector('.start')
   
     const width = 10
-    let currentIndex = 0 //so first div in our grid
-    let appleIndex = 0 //so first div in our grid
+    let currentIndex = 0 //First div in our grid
+    let appleIndex = 0 //First div in our grid
     let currentSnake = [2,1,0] 
     let direction = 1
     let score = 0
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   
-    //function that deals with ALL the ove outcomes of the Snake
+    //function that deals with ALL the outcomes of the Snake
     function moveOutcomes() {
   
       //deals with snake hitting border and snake hitting self
